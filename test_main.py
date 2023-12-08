@@ -33,7 +33,6 @@ def test_checkout_books_insufficient_quantity(library_fixture):
         total_late_fees = library_fixture.checkout_books(selections)
         assert total_late_fees == -1
 
-# ... (resto de las pruebas, como se proporcionó anteriormente)
 
 if __name__ == "__main__":
     pytest.main()
